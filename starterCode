@@ -1,15 +1,32 @@
-// Example program
 #include <iostream>
-#include <string>
 
-int main()
+using namespace std;
+
+int number01;
+int number02;
+int answer;
+
+void main()
 {
-
-  double num1 = 0; 
-  std::cout << "enter a number"; 
-  std::cin >> num1; 
-  
-  double num2 = 5 + num1; 
-  std::cout << " 5 + your number is " << num2;
+    cout << "Enter First Number:";
+    cin >> number01;
+    cout << "Enter Second Number:";
+    cin >> number02;
     
+    answer = number01 + number02;
+    cout << "The Sum Of Your Numbers = "
+    << answer << end1;
+    
+    answer = number01 - number02;
+    cout << "The Difference Of Your Numbers = "
+    << answer << end1;
+    
+     answer = number01 % number02;
+    cout << "The Remainder Of Your Numbers = "
+    << answer << end1;
+    
+    answer = number01 * number02;
+    cout << "The multiplecation Of Your Numbers = "
+    << answer << end1;
 }
+
